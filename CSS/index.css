@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    margin: 0;
+}
 h1
 {
-    color: red;
+    color: black;
+    background-color: white;
+    margin: 0%;
+    height: 100px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 500%;
+}
+header{
+    border-bottom: 1px,solid,gray;
 }
