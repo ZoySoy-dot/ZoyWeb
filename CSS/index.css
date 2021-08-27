@@ -29,3 +29,24 @@ div a.link{
     font-size: 150%;
     font-family: 'Lato', sans-serif;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.center.bottom
+{
+    margin-top: 25%;
+}
+.column {
+    float: left;
+    width: 32%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
